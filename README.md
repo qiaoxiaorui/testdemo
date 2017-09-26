@@ -2,7 +2,7 @@
 * [HTTP接口](# 2 HTTP接口)
 
 
-## 1. 基础知识
+## 基础知识
 ### 1.1 了解protocolbuffer3
 布比区块链是用protocolbuffer3序列化数据的，protocolbuffer3是google推出的数据序列化协议，您如果不了解protocolbuffer3，请点击[这里](https://developers.google.com/protocol-buffers/docs/proto3)了解更多。
 我们使用的所有数据格式都能在源码的```src\proto```目录中找到。其中chain.proto文件中定义的数据是和交易、区块、账号密切相关的。
